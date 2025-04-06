@@ -24,8 +24,8 @@
 |8|Номера телефонов клиентов в системах должны дополнительно шифроваться/хешироваться/маскироваться|
 
 ### <a name="_qmphm5d6rvi3"></a>**Решение**
-[Диаграмма контекста](https://github.com/RyabchikovVN/architecture-standart/blob/work/Task3/Standart_C4_L2.drawio)
-[Диаграмма контейнеров](https://github.com/RyabchikovVN/architecture-standart/blob/work/Task3/Standart_C4_L3.drawio)
+- [Диаграмма контекста](https://github.com/RyabchikovVN/architecture-standart/blob/work/Task3/Standart_C4_L2.drawio)
+- [Диаграмма контейнеров](https://github.com/RyabchikovVN/architecture-standart/blob/work/Task3/Standart_C4_L3.drawio)
 1. Требуется добавить Kafka в путь прохождения заявки от системы Call Center до АБС, ввиду ограничения "АБС может масштабироваться только вертикально из-за своей базы данных"
 2. Из-за того, что аутентификация клиента проходит в АБС, что будет нагружать систему, требуется: 
 - внедрить keycloak
